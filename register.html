@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="register-form">
+        <h1>Register</h1>
+        <div class="container">
+            <div class="content">
+                <h2>Create Your Account</h2>
+                <form action="#" method="post">
+                    <!-- Username -->
+                    <input type="text" name="username" placeholder="Enter your Username" required autofocus="">
+                    
+                    <!-- Gmail -->
+                    <input type="email" name="email" placeholder="Enter your Gmail" required>
+                    
+                    <!-- Password -->
+                    <input type="password" name="password" placeholder="Enter your Password" required>
+                    <input type="password" name="confirm_password" placeholder="Confirm your Password" required>
+                    
+                    <!-- Date of Birth -->
+                    <label for="dob" class="dob-label">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+                    
+                    <!-- Submit Button -->
+                    <button type="submit" onclick="location.href='homepage.html'"> Register </button>
+                </form>
+                <p class="account">Already have an account? <a href="login.html">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+/* Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 15px 30px;
+}
+
+.logo {
+    font-family: '13_Misa', sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Product Container */
+.product-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Product Image */
+.product-image img {
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Product Details */
+.product-details {
+    flex: 1;
+}
+
+.new-label {
+    font-weight: bold;
+    font-style: italic;
+    background: lightgray;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.product-subtitle {
+    color: gray;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Shipping Info */
+.shipping-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: lightgray;
+    padding: 5px 10px;
+    margin-top: 10px;
+    width: fit-content;
+}
+
+.shipping-info img {
+    width: 20px;
+}
+
+/* Size Options */
+.size-options {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.size-options button {
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid black;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.size-options button:hover {
+    background: black;
+    color: white;
+}
+
+/* Back Button */
+.back-button {
+    font-size: 30px;
+    margin: 50px 30px;
+    cursor: pointer;
+}
