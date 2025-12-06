@@ -43,8 +43,8 @@ header nav ul li a {
     text-decoration: none;
     font-size: 25px;
     padding: 0px 0;
-    font-weight: bold;       /* ทำให้ฟอนต์เป็นตัวหนา */
-    font-style: italic;      /* ทำให้ฟอนต์เป็นตัวเอียง */
+    font-weight: bold;      
+    font-style: italic;      
     transition: color 0.3s ease;
 }
 
@@ -144,3 +144,4 @@ footer {
 footer p {
     margin: 5px 0;
 }
+
