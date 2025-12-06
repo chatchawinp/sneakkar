@@ -14,26 +14,24 @@ body {
     min-height: 100vh;
 }
 
-/* สำหรับ h1 ให้อยู่บนสุดตรงกลาง */
 h1 {
-    text-align: center; /* จัดข้อความตรงกลาง */
-    color: white; /* สีของข้อความ */
-    font-size: 3.5rem; /* ขนาดของฟอนต์ */
-    font-family: '13_Misa', sans-serif; /* ฟอนต์ */
-    margin-top: 50px; /* ระยะห่างจากด้านบน */
-    position: absolute; /* กำหนดตำแหน่งแบบ absolute */
-    top: 20px; /* ระยะห่างจากขอบบนของหน้า */
-    left: 50%; /* จัดให้อยู่กึ่งกลางแนวนอน */
-    transform: translateX(-50%); /* แก้ไขการจัดตำแหน่งให้กึ่งกลาง */
+    text-align: center; 
+    color: white; 
+    font-size: 3.5rem;
+    font-family: '13_Misa', sans-serif; 
+    margin-top: 50px; 
+    position: absolute; 
+    top: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
 }
 
-/* แก้ไขฟอร์มให้มาอยู่ตรงกลางหน้าจอ */
 .login-form {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* ใช้ความสูงเต็มหน้าจอ */
-    margin-top: 10px; /* เพื่อไม่ให้ชนกับ h1 */
+    height: 100vh; 
+    margin-top: 10px; 
 }
 
 
@@ -87,4 +85,5 @@ p.account a {
 
 p.account a:hover {
     text-decoration: underline;
+
 }
